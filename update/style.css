@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: black;
+    color: white;
+    padding: 20px; 
+}
+
+.app-header {
+    padding: 20px; 
+}
+
+.app-body {
+    display: flex;
+    flex: 1;
+    margin-top: 20px; 
+}
+
+.app-body-main-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.employee-section {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #333; 
+    padding: 20px; 
+    border-radius: 10px; 
+}
+
+.employee-section h2 {
+    text-align: center; 
+    margin-bottom: 20px; 
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: calc(100% - 20px); 
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px; 
+}
+
+.flat-button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.logo-title {
+    text-align: center;
+    margin-bottom: 20px; 
+}
